@@ -1,0 +1,26 @@
+{
+  "name": "linker-project",
+  "version": "1.0.0",
+  "description": "Site for links modifying",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "linker"
+  ],
+  "author": "AdarkSt <goqhak777@mail.ru> (Grig)",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "mongoose": "^6.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}
