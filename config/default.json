@@ -1,4 +1,6 @@
 {
     "port": 5000,
-    "mongoURi": "mongodb+srv://Grig:ggg777gg77g7_LinkerDb@cluster0.mw6ostt.mongodb.net/?retryWrites=true&w=majority"
+    "jwtSecret": "linker project jwt secret",
+    "mongoURi": "mongodb+srv://Grig:ggg777gg77g7_LinkerDb@cluster0.mw6ostt.mongodb.net/?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
 }
